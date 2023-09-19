@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+.header{
+    display: flex;
+    font-size: 20px ;
+    height: 40px;
+    width:100%;
+    border-bottom:5px solid;
+    border-bottom-color: whitesmoke ;
+
+}
+.container{
+     display:flex;
+}
+.containerleft
+{
+
+    height: 500px;
+    width:400px;
+    margin-top:40px;
+    font-size: 3rem;
+    font-family:"Mooli" ;
+    font-weight: 800;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-top: 150px;
+    justify-content: center;
+    
+
+}
+.containerright{
+    
+    margin-top: 40px;
+    height:700px;
+    width:40%;
+    margin-left:130px;
+    margin-right:50px;
+    
+}
+.containerrighttop{
+
+    height:300px;
+    border-radius: 20px;
+    border-bottom:5px solid;
+    border-bottom-color: whitesmoke ;
+    
+
+
+}
+.containerrightbottom{
+
+    margin-top:50px;
+    height:300px;
+    border-bottom:5px solid;
+    border-bottom-color: whitesmoke ;
+
+
+}
+.container2{
+    display:flex;
+ 
+}
+.container3{
+    display:flex;
+ 
+}
+.textcontainerrighttop{
+    color:gray;
+    font-size:15px;
+}
+.searchbar{
+    display: flex;
+    width:200px;
+    border-radius: 100px;
+    border-color: black;
+    padding:10px 20px;
+}
+.searchbar input{
+    background: whitesmoke;
+    flex:1;
+    border-radius: 60px;
+    border-color: black;
+    outline:none;
+    font-size:20px;
+    width: 50px;
+    height: 30px;
+
+}
+.searchicon{
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.writeicon{
+    display: flex;
+}
+.button {
+    background-color:green;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
